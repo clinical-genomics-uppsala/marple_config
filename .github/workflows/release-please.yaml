@@ -13,5 +13,5 @@ jobs:
         id: release
         with:
           release-type: python
-          package-name: poirot-config
+          package-name: marple_config
           default-branch: main

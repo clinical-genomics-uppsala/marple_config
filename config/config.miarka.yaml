@@ -5,7 +5,6 @@ hydra_local_path: /proj/ngi2024001/nobackup/bin/wp3_tc/marple_rd_tc_{{PIPELINE_V
 
 resources: config/resources.miarka.yaml
 
-
 reference:
   annovar: '{{REFERENCE_DATA}}/marple/annovar/'
   fasta: '{{REFERENCE_DATA}}/marple/reference_grasnatter/homo_sapiens.fasta'
@@ -17,7 +16,6 @@ reference:
   exon_intervals: '{{REFERENCE_DATA}}/marple/Twist_Cancer_230602_hg38_coding_exons.intervals'
   pgrs_bed: '{{REFERENCE_DATA}}/marple/Twist_Cancer_230707_hg38_pgrs_snps.bed'
 
-
 bwa_mem:
   amb: '{{REFERENCE_DATA}}/marple/reference_grasnatter/homo_sapiens.fasta.amb'
   ann: '{{REFERENCE_DATA}}/marple/reference_grasnatter/homo_sapiens.fasta.ann'
@@ -25,12 +23,10 @@ bwa_mem:
   pac: '{{REFERENCE_DATA}}/marple/reference_grasnatter/homo_sapiens.fasta.pac'
   sa: '{{REFERENCE_DATA}}/marple/reference_grasnatter/homo_sapiens.fasta.sa'
 
-
 exomedepth_call:
   bedfile: '{{REFERENCE_DATA}}/marple/Twist_Cancer_230706_hg38_TE-98982205-wPGRS.merged_200bpwindows.bed'
   exonsfile: '{{REFERENCE_DATA}}/marple/exons_GRCh38_ensembl109.txt'
   genesfile: '{{REFERENCE_DATA}}/marple/genes_GRCh38_ensembl109.txt'
-
 
 export_qc_xlsx_report:
   wanted_transcripts: '{{REFERENCE_DATA}}/marple/wanted_transcripts.txt'
