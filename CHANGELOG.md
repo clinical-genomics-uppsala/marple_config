@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/clinical-genomics-uppsala/marple_config/compare/v0.1.0...v0.1.1) (2025-11-24)
+
+
+### Bug Fixes
+
+* correct the miarka  path to multiq config ([c2a7c34](https://github.com/clinical-genomics-uppsala/marple_config/commit/c2a7c34c0b06937117bb0830610839fb31f15a26))
+
 ## 0.1.0 (2025-11-21)
 
 
