@@ -38,9 +38,9 @@ melt:
   mei: '{{REFERENCE_DATA}}/marple/melt/mei_list.txt'
 
 mosaicforecast_genotype_prediction:
-  model_trainedSNP: '{{REFERENCE_DATA}}/marple/150xRFmodel_addRMSK_Refine.rds' # 200xRFmodel_addRMSK_Refine.rds or deletions_250x.RF.rds(phase) or insertions_250x.RF.rds(phase)
-  model_trainedINS: '{{REFERENCE_DATA}}/marple/insertions_250x.RF.rds' # 200xRFmodel_addRMSK_Refine.rds or deletions_250x.RF.rds(phase) or insertions_250x.RF.rds(phase)
-  model_trainedDEL: '{{REFERENCE_DATA}}/marple/deletions_250x.RF.rds' # 200xRFmodel_addRMSK_Refine.rds or deletions_250x.RF.rds(phase) or insertions_250x.RF.rds(phase)
+  model_trained_SNP: '{{REFERENCE_DATA}}/marple/150xRFmodel_addRMSK_Refine.rds' # 200xRFmodel_addRMSK_Refine.rds or deletions_250x.RF.rds(phase) or insertions_250x.RF.rds(phase)
+  model_trained_INS: '{{REFERENCE_DATA}}/marple/insertions_250x.RF.rds' # 200xRFmodel_addRMSK_Refine.rds or deletions_250x.RF.rds(phase) or insertions_250x.RF.rds(phase)
+  model_trained_DEL: '{{REFERENCE_DATA}}/marple/deletions_250x.RF.rds' # 200xRFmodel_addRMSK_Refine.rds or deletions_250x.RF.rds(phase) or insertions_250x.RF.rds(phase)
 
 
 multiqc:
