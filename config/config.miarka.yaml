@@ -5,6 +5,8 @@ hydra_local_path: /proj/ngi2024001/nobackup/bin/wp3_tc/marple_rd_tc_{{PIPELINE_V
 
 resources: config/resources.miarka.yaml
 
+output: config/output_files.yaml
+
 reference:
   annovar: '{{REFERENCE_DATA}}/marple/annovar/'
   fasta: '{{REFERENCE_DATA}}/marple/reference_grasnatter/homo_sapiens.fasta'
@@ -39,6 +41,12 @@ mosaicforecast_genotype_prediction:
   model_trainedSNP: '{{REFERENCE_DATA}}/marple/150xRFmodel_addRMSK_Refine.rds' # 200xRFmodel_addRMSK_Refine.rds or deletions_250x.RF.rds(phase) or insertions_250x.RF.rds(phase)
   model_trainedINS: '{{REFERENCE_DATA}}/marple/insertions_250x.RF.rds' # 200xRFmodel_addRMSK_Refine.rds or deletions_250x.RF.rds(phase) or insertions_250x.RF.rds(phase)
   model_trainedDEL: '{{REFERENCE_DATA}}/marple/deletions_250x.RF.rds' # 200xRFmodel_addRMSK_Refine.rds or deletions_250x.RF.rds(phase) or insertions_250x.RF.rds(phase)
+
+
+multiqc:
+  reports:
+    DNA:
+      config: 'config/multiqc_config.yaml'
 
 vep:
   vep_cache: '{{REFERENCE_DATA}}/marple/VEP/'
