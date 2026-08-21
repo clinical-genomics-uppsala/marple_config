@@ -1,0 +1,18 @@
+jobs: 100
+keep-going: True
+restart-times: 1
+rerun-incomplete: True
+max-jobs-per-second: 100
+max-status-checks-per-second: 100
+use-singularity: True
+
+slurm: True
+default-resources:
+  - slurm_partition="core"
+  - slurm_account="ngi2024001"
+  - runtime="12h"
+  - nodes=1
+
+singularity-args: "-e --cleanenv -B /proj --bind /proj/ngi2024001/nobackup/bin/wp3_tc/design_and_ref_files/marple:$PWD/.cache/torch/hub/checkpoints "
+singularity-prefix: "/proj/ngi2024001/nobackup/bin/wp3_tc/apptainer_cache/"
+wrapper-prefix: "git+file://proj/ngi2024001/nobackup/bin/wp3_tc/marple_rd_tc_${TAG_OR_BRANCH}/snakemake-wrappers/"
