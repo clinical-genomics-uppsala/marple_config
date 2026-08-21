@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.2.0](https://github.com/clinical-genomics-uppsala/marple_config/compare/v0.1.2...v0.2.0) (2026-08-21)
+
+
+### Features
+
+* slurm profile without drmaa for miarka ([f678eee](https://github.com/clinical-genomics-uppsala/marple_config/commit/f678eeeed7b9a4fe3e3a7f8ee2af1c7756a16488))
+
+
+### Bug Fixes
+
+* update wrapper-prefix in config.yaml ([675aa7f](https://github.com/clinical-genomics-uppsala/marple_config/commit/675aa7f258accfea69f7631a600ec49b94fd2013))
+* update wrapper-prefix path in config.yaml ([3809c85](https://github.com/clinical-genomics-uppsala/marple_config/commit/3809c856fbe5872ee254c5ba9b9b3164b7cb299f))
+* update wrapper-prefix with dynamic TAG_OR_BRANCH for envsubst ([7665471](https://github.com/clinical-genomics-uppsala/marple_config/commit/7665471a7aaa08eea318f3f33848c6b86e9f2260))
+
 ## [0.1.2](https://github.com/clinical-genomics-uppsala/marple_config/compare/v0.1.1...v0.1.2) (2025-11-24)
 
 
