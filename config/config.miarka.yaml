@@ -49,10 +49,5 @@ multiqc:
       config: 'config/multiqc_config.yaml'
 
 
-multiqc:
-  reports:
-    DNA:
-      config: 'config/multiqc_config.yaml'
-
 vep:
   vep_cache: '{{REFERENCE_DATA}}/marple/VEP/'
