@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.1](https://github.com/clinical-genomics-uppsala/marple_config/compare/v0.2.0...v0.2.1) (2026-09-10)
+
+
+### Bug Fixes
+
+* config.miarka.yaml ([8b68f56](https://github.com/clinical-genomics-uppsala/marple_config/commit/8b68f56e71d996117899239b63719648f39cb525))
+* containers ([e5fa348](https://github.com/clinical-genomics-uppsala/marple_config/commit/e5fa3482d486b801c46bacba189caf18ed64d972))
+
 ## [0.2.0](https://github.com/clinical-genomics-uppsala/marple_config/compare/v0.1.2...v0.2.0) (2026-08-21)
 
 
