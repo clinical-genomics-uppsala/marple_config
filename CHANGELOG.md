@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/clinical-genomics-uppsala/marple_config/compare/v0.2.1...v0.3.0) (2026-11-18)
+
+
+### Features
+
+* TCv5 ([84f960c](https://github.com/clinical-genomics-uppsala/marple_config/commit/84f960c11c16fff32e7fc7c53ac0442564de0213))
+
 ## [0.2.1](https://github.com/clinical-genomics-uppsala/marple_config/compare/v0.2.0...v0.2.1) (2026-09-10)
 
 
